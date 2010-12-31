@@ -16,7 +16,7 @@ Tested with Active Record 3.0.3 with Ruby 1.8.7 and 1.9.2.
 
 In the Gemfile:
 
-  gem 'vestal_versions', :git => 'git://github.com/adamcooper/vestal_versions'
+  gem 'vestal_versions', :git => 'git://github.com/curtis/vestal_versions'
 
 Next, generate and run the first and last versioning migration you'll ever need:
 
