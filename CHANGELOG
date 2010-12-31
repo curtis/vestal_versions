@@ -1,4 +1,5 @@
-HEAD
+Version 1.2.3
+* Fix non-Ruby 1.9.2 incompatibility
 * Added a new class level 'skip_version' that works on one model at
 a time
 * Internal refactoring and tidying up by Alex Crichton
