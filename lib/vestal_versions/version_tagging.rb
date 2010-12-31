@@ -45,6 +45,6 @@ module VestalVersions
       end
     end
 
-    Version.class_eval{ include VersionMethods }
+    Version.send :include, VersionMethods
   end
 end

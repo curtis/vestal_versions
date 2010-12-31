@@ -123,4 +123,4 @@ module VestalVersions
   end
 end
 
-ActiveRecord::Base.class_eval{ include VestalVersions }
+ActiveRecord::Base.send :include, VestalVersions

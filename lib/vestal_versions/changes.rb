@@ -4,7 +4,7 @@ module VestalVersions
   module Changes
     extend ActiveSupport::Concern
     included do
-      Hash.class_eval{ include HashMethods }
+      Hash.send :include, HashMethods
 
       after_update :merge_version_changes
     end

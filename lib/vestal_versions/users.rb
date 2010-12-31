@@ -6,7 +6,7 @@ module VestalVersions
 
     included do
       attr_accessor :updated_by
-      Version.class_eval{ include VersionMethods }
+      Version.send :include, VersionMethods
     end
 
     # Methods added to versioned ActiveRecord::Base instances to enable versioning with additional
